@@ -10,7 +10,7 @@ app.get("/health",(req,res)=>{
    return res.status(200).json({message:"all is fine just do it"})
 })
 app.get("/",(req,res)=>{
-   return res.status(200).json({message:"hello Nishat how are you "})
+   return res.status(200).json({message:"hello Nishat check CI/CD Works ?? "})
 })
 
 app.listen(port,()=>{
